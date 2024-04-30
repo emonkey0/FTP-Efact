@@ -28,6 +28,7 @@ Partial Class MainForm
         Me.SearchTextBox = New System.Windows.Forms.TextBox()
         Me.SearchButton = New System.Windows.Forms.Button()
         Me.FilteredFileListBox = New System.Windows.Forms.ListBox()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.SuspendLayout()
         '
         'ConnectButton
@@ -79,12 +80,22 @@ Partial Class MainForm
         Me.FilteredFileListBox.Size = New System.Drawing.Size(120, 95)
         Me.FilteredFileListBox.TabIndex = 5
         '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Location = New System.Drawing.Point(340, 279)
+        Me.CheckedListBox1.MultiColumn = True
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(212, 94)
+        Me.CheckedListBox1.TabIndex = 6
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.FilteredFileListBox)
         Me.Controls.Add(Me.SearchButton)
         Me.Controls.Add(Me.SearchTextBox)
@@ -104,4 +115,5 @@ Partial Class MainForm
     Friend WithEvents SearchTextBox As Windows.Forms.TextBox
     Friend WithEvents SearchButton As Windows.Forms.Button
     Friend WithEvents FilteredFileListBox As Windows.Forms.ListBox
+    Friend WithEvents CheckedListBox1 As Windows.Forms.CheckedListBox
 End Class
