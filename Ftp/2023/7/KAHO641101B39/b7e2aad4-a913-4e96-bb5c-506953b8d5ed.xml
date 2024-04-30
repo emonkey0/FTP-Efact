@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Folio="175" Fecha="2023-07-12T13:56:20" Sello="Jn5WqJyc28nlOwuuaLYFn7Qd4SftS1n0eq7gb7CMZGl3yAFEIBRUXyTCKyBWZN6XC6qvAahqOxS6k/6PQ5nAtmA1neiu4+HV2wmgLoXWINspUBzLPgKXjLIsyXE2l02ftegZrmIRZZdCD/QFmKzGeGuJ2vErbLQzZvZ9kb4i0f8EmDFVz67QElo/ENnVdNsDtOaum55qjDBt2yO+NPJIbQIgAWhMVMhKX079iBQe+9nleO4ZvUujcJwSkXP7venQAKgQ3Ezh856yP0KUQjozicZhdJUd+MNJkjkvMPVDU+Kcr4RqC+YvV0XmFZYwkMkVudLImRJn20esSpwjzmxNdw==" FormaPago="01" NoCertificado="30001000000500003318" Certificado="MIIFcTCCA1mgAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDMzMTgwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTEwMTU1MzIyWhcNMjcwNTEwMTU1MzIyWjCBmDEYMBYGA1UEAxMPT1NDQVIgS0FMQSBIQUFLMRgwFgYDVQQpEw9PU0NBUiBLQUxBIEhBQUsxGDAWBgNVBAoTD09TQ0FSIEtBTEEgSEFBSzEWMBQGA1UELRMNS0FITzY0MTEwMUIzOTEbMBkGA1UEBRMSS0FITzY0MTEwMUhOVExLUzA2MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGn3Zld2n+1t0KAyxnrlzniAm4YmmMjWzEJhzG9vpKnQnxSveHe1GLf4THl2v2i4C1GSshNwStpeTFEx3kRs6k9tTI36cPb0BnAJzby80GqzNesx74HtLyGNAmItkTFgdr5I3RSlW0Utd42wFETlB9cOgqhA8HqKl7efNUq+12527RTA+tcubtgrGQJxhqaBj/yGmC0yFCmpNhhXnHUBhnnVoDPfZfbPb0kU4IW6lnHaR37A6ElPbnaBpq1GrW7kWejL4dUlIp4FtT8eyZfyfrbqSG7Ic7X0WegOHBbmsmVUrBsLuAXfI+BKfGNCPzJb6l2jLhYL0+81kdEvt2ufGwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAFw+NejTBngfxEqLN/yjgunU1eBcd403CJbIFv+H0haS2RKv/z5BKev2NwwshWCvnZ67O+ZS86crD3clrRmw9TZWVP1FjCMdO/sNVWq7wRrIXUaImhOwDt95AXOdPeBc5I35tMmGbXn1zf6FimRYTj9slkUmIXh5nY6wb9eH2nMWwXxuhJYsRX8oZ2h2IUkmngByBbujG0xekn4Aqvm+ez6ULaRG+ZykB3sufGh5bWi2VtrkoAOQgvDZpA/5KNPxAaRy3o3pjSOyyjuhZ2x/zvk82RmeihK8qpA6IzAtMEHKf9f0HaR9J2KhGJmCsHaChj5uxpUHTM4M7DE2lTcgnUxNqekmrUOkMGBLYromcTxZjbL+lFKmocwmDVqMCY/IPYhzjLmgihDnNj12IaZVUMhjSQTw65dkBNN8uBJBvUev+MfFxTldzul1z6tA6NwG5fHaYHVYq8pEdzb/0QEAKmNBYtzh9HZvuL4FnX9QfOASI/hhRwEk2MAYzGKU08erhSNnjTZiBhAxqLENOVv82vmJSyyOas8tL1EMEIFMx21ygliR+HqoW/ksfSOZcSpTO5d2rhV/0AB8tq6cCPh3hTb86V9SSHm8NUqJRcWfu90ujZexSTMvVegwnUiEHgDaPO8pLofu0wDSJVB+WcYvfUhlu6MnRIO9cVM5vf6bXXCE=" SubTotal="87.15" Moneda="MXN" Total="100.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="76074" xmlns:cfdi="http://www.sat.gob.mx/cfd/4">
+  <cfdi:Emisor Rfc="KAHO641101B39" Nombre="OSCAR KALA HAAK" RegimenFiscal="626" />
+  <cfdi:Receptor Rfc="CRT741111GT5" Nombre="INSTITUTO NACIONAL DEL SUELO SUSTENTABLE" DomicilioFiscalReceptor="06600" RegimenFiscalReceptor="603" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="53121601" Cantidad="1.0" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BOLSOS O CARTERAS" ValorUnitario="87.2" Importe="87.15" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="87.15" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="13.94" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="87.15" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="1.09" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="1.09" TotalImpuestosTrasladados="13.94">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="001" Importe="1.09" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="87.15" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="13.94" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="b7e2aad4-a913-4e96-bb5c-506953b8d5ed" FechaTimbrado="2023-07-12T13:56:47" RfcProvCertif="SPR190613I52" SelloCFD="Jn5WqJyc28nlOwuuaLYFn7Qd4SftS1n0eq7gb7CMZGl3yAFEIBRUXyTCKyBWZN6XC6qvAahqOxS6k/6PQ5nAtmA1neiu4+HV2wmgLoXWINspUBzLPgKXjLIsyXE2l02ftegZrmIRZZdCD/QFmKzGeGuJ2vErbLQzZvZ9kb4i0f8EmDFVz67QElo/ENnVdNsDtOaum55qjDBt2yO+NPJIbQIgAWhMVMhKX079iBQe+9nleO4ZvUujcJwSkXP7venQAKgQ3Ezh856yP0KUQjozicZhdJUd+MNJkjkvMPVDU+Kcr4RqC+YvV0XmFZYwkMkVudLImRJn20esSpwjzmxNdw==" NoCertificadoSAT="30001000000400002495" SelloSAT="ac1+ML3B4MXJvYBbl2SZP/rWoDTDttvNMMKUVNQIfC/iKw2g4e4qD8J3etvWuWINRsVIPefcVx+fCIhG8/Zpoi7+IoPjW96+hVHVwdGfazztUERGoz04p/ITRbV4JbogjUZJNAxmVP2+AxCXE8SMWnnngU2DiPFI+Gt55aPEc8daO8VUKqs3zq93GgbQjneZrvCtpCkXAkqP3lJ0sCeYC7s0KbmS46n4uVnIiBQu/RodwhXo79vFEU4e4jRGumQvv9y1JxdaSi9YVNyTuHnzdz4tCyRV50ElR57DTxBgKKQDGW1I/g65kkuyxqHfJK47ucmLo9tPAxb5sEYX5mwSlQ==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

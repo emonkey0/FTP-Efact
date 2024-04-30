@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/CartaPorte30 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte30.xsd" Version="4.0" Serie="T" Folio="58" Fecha="2023-12-06T18:23:26" Sello="ToWVo/s0OXuZ4oYjJJPsX4Gl63A/6m7jrc9o9/x1TyfvgEKC2z75albpmVaxlXf1kC+eoeNlVKi7sdOfCA6FRNzlliDx26If2Nwuy9EI6JlRIOlDwpl5MACdt7dEy0tNmCDcQOZ0BQwxM2ukbDGWPWzZSgumM24DZRZgTgmvGYbCrHTpyjm43qWeqeu/3Nu6Go60NkVYqBM2dDRQcwpL0AZFLyG51jkS/tXKSaCSrNgMvn4NoY5xeKy8p/NIbUAuC57IGXtSm3bPD71C2QOb9gc/FnRjOHZcY4Iw7OABitObQmDLFDSLgGdTNCY6wv+wdpfkJRD4jkqKYpaL4jbe6g==" NoCertificado="30001000000500003434" Certificado="MIIFtjCCA56gAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MzQwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTI0ODU3WhcNMjcwNTE4MTI0ODU3WjCB3TEpMCcGA1UEAxMgSU5OT1ZBQ0lPTiBWQUxPUiBZIERFU0FSUk9MTE8gU0ExKTAnBgNVBCkTIElOTk9WQUNJT04gVkFMT1IgWSBERVNBUlJPTExPIFNBMSkwJwYDVQQKEyBJTk5PVkFDSU9OIFZBTE9SIFkgREVTQVJST0xMTyBTQTElMCMGA1UELRMcSVZEOTIwODEwR1UyIC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsMyIHgj/WC4HQ2kbANTwbjJQho3H4emTqZLLrGybmuGOWh7tUcPi6cG3tyzp5aryS9aVIUDdLyryL2E6WeRwF9ifhmG9FQD8PG/B9VVlj9/u7ob97jPMI1hHV9tE4zmHSQGVMQjdUWhyywPOf+Ia9gL0i2XRzK/A243dYfiFWaiG4VeLn5iSo669PS9PRKNpw725+57bLfPCYlq+JnCQD5pfDWnKiI+JCwBNS+q4xpv/eO9ife/9LpIGlobAd3OHB3Mw7Keij7GCSl98jp0gGxDU7GXnS851H9R6r4kADq49aR4kScCPukU5n865BZog2JUS1C5TT/IWgsgCu8I0wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAGeGwhK3QSs/tnvK/HXoPm7/R7SgVkhj/29wSjh8VtIYk3UMMyipOz/EwSFQN+QnNQ8BxNplEmgv8M8kDobbPlGaNiMEvqKLexZtUlpSolkkfiyvPMxWGn26bNmBGObshxHCAXlRyuRMpddunRNgOJ9mzgmkmuFY7fdGPcEUrkPgIkRX37a9HgQ5v+/IMYHvbwkjaK4vA45mDPxdRw8Mjr7MO2tMds9yz59ZargvO7TlF79XmfyfnsrkkSplVEXbae+uZ80YK+YHmkuwqBmXhcKa+YbiDZkIgM7l69NKKmK258jzEkmfnpbfekwH0Lc9CDv8wqA4mNNYFaeSJflR/jeiB0Rl50ZRyiaL8ncN15AA6lS9f7BeJfow/NNR4pv2Uk8C0Io6+PhSX8az5jhV6xrult2i/+7eoM0LRRvkg7Qyp/aDpha8DoHhtDIy/g3xU0n408PkWCJceoPk/IwWgN4QiunRddXeS2eNipJ3E2VbbOoxtH5xF2IsishbTWpxCYBg+w80WgewwODG18CTCldCo3g5QrgkfcvOHvtN+EL9XAJbS6iUAOyHumRgGh3TNMIEld8DUMM6nylVcv0DRi27BnJLhbr+pbXWh0a5eU4Uear0/TXsv9IR60fNrY/7juo+OsBV7q0vKxATR4CAbR2+2/eHczloUYEgpUyYiVK8=" SubTotal="0" Moneda="XXX" Total="0" TipoDeComprobante="T" Exportacion="01" LugarExpedicion="58000" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cartaporte30="http://www.sat.gob.mx/CartaPorte30">
+  <cfdi:Emisor Rfc="IVD920810GU2" Nombre="INNOVACION VALOR Y DESARROLLO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="IVD920810GU2" Nombre="INNOVACION VALOR Y DESARROLLO" DomicilioFiscalReceptor="63901" RegimenFiscalReceptor="601" UsoCFDI="S01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="53101500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PANTALONES DE DEPORTE, PANTALONES Y PANTALONES CORTOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101504" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101603" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAMISAS O BLUSAS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101700" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SUÉTERES" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101704" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SWEATERS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101804" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ABRIGOS O CHAQUETAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="52121509" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SÁBANAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="52131501" Cantidad="5.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="CORTINAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111502" Cantidad="3.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111600" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111601" Cantidad="3.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111602" Cantidad="7.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111604" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111801" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111802" Cantidad="2.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111902" Cantidad="4.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111903" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA NIÑO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111904" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102901" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ROPA ATLÉTICA PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111604" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111902" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111502" Cantidad="2.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111602" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111801" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111902" Cantidad="2.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="49221510" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="GORRAS DEPORTIVAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="52121704" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="TOALLAS DE MANOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101503" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101504" Cantidad="10.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101602" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAMISAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101604" Cantidad="9.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAMISAS O BLUSAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101700" Cantidad="7.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SUÉTERES" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101702" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SWEATERS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101704" Cantidad="5.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SWEATERS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101802" Cantidad="3.00" ClaveUnidad="C62" Unidad=" Uno" Descripcion="ABRIGOS O CHAQUETAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53101804" Cantidad="8.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ABRIGOS O CHAQUETAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102001" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="VESTIDOS O FALDAS O SARIS O KIMONOS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102002" Cantidad="7.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="VESTIDOS O FALDAS O SARIS O KIMONOS PARA PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102304" Cantidad="9.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BRASSIERES" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102307" Cantidad="3.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PRENDAS PARA DAR FORMA AL CUERPO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102604" Cantidad="1.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="PIJAMAS O CAMISAS DE DORMIR O BATAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102901" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ROPA ATLÉTICA PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53103001" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAMISETAS (T-SHIRTS) PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53103100" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CHALECOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53103101" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CHALECOS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="52121509" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SÁBANAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102303" Cantidad="3.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="CALZONCILLOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102600" Cantidad="5.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="ROPA DE DORMIR" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53102901" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ROPA ATLÉTICA PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111602" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111604" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53121502" Cantidad="1.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="SETS DE MALETAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111500" Cantidad="2.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111501" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111502" Cantidad="55.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111503" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA NIÑO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111504" Cantidad="7.00" ClaveUnidad="PR" Unidad="Par" Descripcion="BOTAS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111600" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111601" Cantidad="9.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111602" Cantidad="43.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111603" Cantidad="2.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA NIÑO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111604" Cantidad="7.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATOS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111700" Cantidad="3.00" ClaveUnidad="PR" Unidad="Par" Descripcion="ZAPATILLAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111702" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="PANTUFLAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111705" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="PANTUFLAS PARA BEBÉ" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111800" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111801" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111802" Cantidad="9.00" ClaveUnidad="PR" Unidad="Par" Descripcion="SANDALIAS PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111804" Cantidad="1.00" ClaveUnidad="KT" Unidad="Kit" Descripcion="SANDALIAS PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111900" Cantidad="12.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO DEPORTIVO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111901" Cantidad="15.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA HOMBRE" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111902" Cantidad="30.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA MUJER" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111903" Cantidad="10.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA NIÑO" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111904" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA NIÑA" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+    <cfdi:Concepto ClaveProdServ="53111905" Cantidad="1.00" ClaveUnidad="PR" Unidad="Par" Descripcion="CALZADO ATLÉTICO PARA BEBÉ" ValorUnitario="0.00" Importe="0.00" ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <cartaporte30:CartaPorte Version="3.0" IdCCP="CCCE1662-0E89-4B73-8DDA-22A2CBD1805D" TranspInternac="No" TotalDistRec="100.00">
+      <cartaporte30:Ubicaciones>
+        <cartaporte30:Ubicacion TipoUbicacion="Origen" IDUbicacion="OR000126" RFCRemitenteDestinatario="AMO031022PK5" NombreRemitenteDestinatario="ANDREA MORELIA SA DE CV" FechaHoraSalidaLlegada="2023-12-06T10:00:00">
+          <cartaporte30:Domicilio Calle="Av. Acueducto" NumeroExterior="1919" Colonia="0290" Municipio="053" Estado="MIC" Pais="MEX" CodigoPostal="58240" />
+        </cartaporte30:Ubicacion>
+        <cartaporte30:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE000462" RFCRemitenteDestinatario="FCA980701L75" NombreRemitenteDestinatario="FABRICAS DE CALZADO ANDREA S.A. DE C.V." FechaHoraSalidaLlegada="2023-12-06T14:30:00" DistanciaRecorrida="100.00">
+          <cartaporte30:Domicilio Calle="Av. De los Industriales" NumeroExterior="112" NumeroInterior="3" Colonia="0142" Municipio="037" Estado="GUA" Pais="MEX" CodigoPostal="36270" />
+        </cartaporte30:Ubicacion>
+      </cartaporte30:Ubicaciones>
+      <cartaporte30:Mercancias PesoBrutoTotal="160.603" UnidadPeso="KGM" NumTotalMercancias="75">
+        <cartaporte30:Mercancia BienesTransp="53101500" Descripcion="PANTALONES DE DEPORTE, PANTALONES Y PANTALONES CORTOS" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="239.59" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101504" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA MUJER" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.292" ValorMercancia="220.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101603" Descripcion="CAMISAS O BLUSAS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="115.45" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101700" Descripcion="SUÉTERES" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.460" ValorMercancia="390.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101704" Descripcion="SWEATERS PARA MUJER" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="260.28" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101804" Descripcion="ABRIGOS O CHAQUETAS PARA MUJER" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.280" ValorMercancia="563.30" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="52121509" Descripcion="SÁBANAS" Cantidad="2.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.600" ValorMercancia="1000.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="52131501" Descripcion="CORTINAS" Cantidad="5.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="1.500" ValorMercancia="1090.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111502" Descripcion="BOTAS PARA MUJER" Cantidad="3.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="3.250" ValorMercancia="1179.50" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111600" Descripcion="ZAPATOS" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.290" ValorMercancia="294.43" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111601" Descripcion="ZAPATOS PARA HOMBRE" Cantidad="3.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.849" ValorMercancia="1016.50" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111602" Descripcion="ZAPATOS PARA MUJER" Cantidad="7.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="4.390" ValorMercancia="1330.77" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111604" Descripcion="ZAPATOS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.128" ValorMercancia="148.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111801" Descripcion="SANDALIAS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.180" ValorMercancia="73.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111802" Descripcion="SANDALIAS PARA MUJER" Cantidad="2.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.660" ValorMercancia="236.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111902" Descripcion="CALZADO ATLÉTICO PARA MUJER" Cantidad="4.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.200" ValorMercancia="2965.68" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111903" Descripcion="CALZADO ATLÉTICO PARA NIÑO" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.569" ValorMercancia="231.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111904" Descripcion="CALZADO ATLÉTICO PARA NIÑA" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.300" ValorMercancia="475.93" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102901" Descripcion="ROPA ATLÉTICA PARA MUJER" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.300" ValorMercancia="261.36" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111604" Descripcion="ZAPATOS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.900" ValorMercancia="181.77" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111902" Descripcion="CALZADO ATLÉTICO PARA MUJER" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.870" ValorMercancia="175.06" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111502" Descripcion="BOTAS PARA MUJER" Cantidad="2.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.980" ValorMercancia="623.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111602" Descripcion="ZAPATOS PARA MUJER" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.128" ValorMercancia="254.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111801" Descripcion="SANDALIAS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.180" ValorMercancia="128.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111902" Descripcion="CALZADO ATLÉTICO PARA MUJER" Cantidad="2.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.651" ValorMercancia="607.22" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="49221510" Descripcion="GORRAS DEPORTIVAS" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="365.80" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="52121704" Descripcion="TOALLAS DE MANOS" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="26.74" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101503" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="82.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101504" Descripcion="PANTALONES LARGOS O CORTOS O PANTALONETAS PARA MUJER" Cantidad="10.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="3.669" ValorMercancia="2132.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101602" Descripcion="CAMISAS PARA HOMBRE" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.920" ValorMercancia="300.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101604" Descripcion="CAMISAS O BLUSAS PARA MUJER" Cantidad="9.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="2.064" ValorMercancia="1369.32" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101700" Descripcion="SUÉTERES" Cantidad="7.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.754" ValorMercancia="1472.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101702" Descripcion="SWEATERS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.730" ValorMercancia="260.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101704" Descripcion="SWEATERS PARA MUJER" Cantidad="5.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.315" ValorMercancia="661.25" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101802" Descripcion="ABRIGOS O CHAQUETAS PARA HOMBRE" Cantidad="3.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.600" ValorMercancia="1211.32" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53101804" Descripcion="ABRIGOS O CHAQUETAS PARA MUJER" Cantidad="8.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="3.780" ValorMercancia="2676.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102001" Descripcion="VESTIDOS O FALDAS O SARIS O KIMONOS PARA NIÑA" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.533" ValorMercancia="242.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102002" Descripcion="VESTIDOS O FALDAS O SARIS O KIMONOS PARA PARA MUJER" Cantidad="7.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.194" ValorMercancia="1275.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102304" Descripcion="BRASSIERES" Cantidad="9.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="3.406" ValorMercancia="1006.60" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102307" Descripcion="PRENDAS PARA DAR FORMA AL CUERPO" Cantidad="3.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.043" ValorMercancia="246.35" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102604" Descripcion="PIJAMAS O CAMISAS DE DORMIR O BATAS PARA MUJER" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="191.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102901" Descripcion="ROPA ATLÉTICA PARA MUJER" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.600" ValorMercancia="525.34" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53103001" Descripcion="CAMISETAS (T-SHIRTS) PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.300" ValorMercancia="115.93" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53103100" Descripcion="CHALECOS" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="1.040" ValorMercancia="528.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53103101" Descripcion="CHALECOS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="H87" Unidad="Pieza" PesoEnKg="0.460" ValorMercancia="315.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="52121509" Descripcion="SÁBANAS" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.300" ValorMercancia="319.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102303" Descripcion="CALZONCILLOS" Cantidad="3.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.774" ValorMercancia="339.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102600" Descripcion="ROPA DE DORMIR" Cantidad="5.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="1.821" ValorMercancia="823.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53102901" Descripcion="ROPA ATLÉTICA PARA MUJER" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.300" ValorMercancia="261.36" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111602" Descripcion="ZAPATOS PARA MUJER" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.410" ValorMercancia="221.51" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111604" Descripcion="ZAPATOS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="0.210" ValorMercancia="196.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53121502" Descripcion="SETS DE MALETAS" Cantidad="1.000000" ClaveUnidad="KT" Unidad="Kit" PesoEnKg="1.100" ValorMercancia="297.72" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111500" Descripcion="BOTAS" Cantidad="2.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.092" ValorMercancia="836.65" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111501" Descripcion="BOTAS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.814" ValorMercancia="304.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111502" Descripcion="BOTAS PARA MUJER" Cantidad="55.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="48.227" ValorMercancia="18993.94" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111503" Descripcion="BOTAS PARA NIÑO" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.380" ValorMercancia="209.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111504" Descripcion="BOTAS PARA NIÑA" Cantidad="7.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="3.240" ValorMercancia="1134.31" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111600" Descripcion="ZAPATOS" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.290" ValorMercancia="294.43" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111601" Descripcion="ZAPATOS PARA HOMBRE" Cantidad="9.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="3.957" ValorMercancia="2449.15" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111602" Descripcion="ZAPATOS PARA MUJER" Cantidad="43.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="16.660" ValorMercancia="10490.45" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111603" Descripcion="ZAPATOS PARA NIÑO" Cantidad="2.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.769" ValorMercancia="309.81" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111604" Descripcion="ZAPATOS PARA NIÑA" Cantidad="7.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.350" ValorMercancia="783.49" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111700" Descripcion="ZAPATILLAS" Cantidad="3.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.140" ValorMercancia="875.80" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111702" Descripcion="PANTUFLAS PARA MUJER" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.300" ValorMercancia="68.71" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111705" Descripcion="PANTUFLAS PARA BEBÉ" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.240" ValorMercancia="103.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111800" Descripcion="SANDALIAS" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.150" ValorMercancia="187.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111801" Descripcion="SANDALIAS PARA HOMBRE" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.180" ValorMercancia="124.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111802" Descripcion="SANDALIAS PARA MUJER" Cantidad="9.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="3.930" ValorMercancia="2575.62" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111804" Descripcion="SANDALIAS PARA NIÑA" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.120" ValorMercancia="157.00" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111900" Descripcion="CALZADO DEPORTIVO" Cantidad="12.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="4.454" ValorMercancia="3808.22" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111901" Descripcion="CALZADO ATLÉTICO PARA HOMBRE" Cantidad="15.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="6.558" ValorMercancia="6854.72" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111902" Descripcion="CALZADO ATLÉTICO PARA MUJER" Cantidad="30.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="8.652" ValorMercancia="14932.45" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111903" Descripcion="CALZADO ATLÉTICO PARA NIÑO" Cantidad="10.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="1.120" ValorMercancia="3288.64" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111904" Descripcion="CALZADO ATLÉTICO PARA NIÑA" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.300" ValorMercancia="322.40" Moneda="MXN" />
+        <cartaporte30:Mercancia BienesTransp="53111905" Descripcion="CALZADO ATLÉTICO PARA BEBÉ" Cantidad="1.000000" ClaveUnidad="PR" Unidad="Par" PesoEnKg="0.300" ValorMercancia="236.64" Moneda="MXN" />
+        <cartaporte30:Autotransporte PermSCT="TPAF02" NumPermisoSCT="1633AMO18032015073501000">
+          <cartaporte30:IdentificacionVehicular ConfigVehicular="C2" PesoBrutoVehicular="1200.00" PlacaVM="NS8681B" AnioModeloVM="2023" />
+          <cartaporte30:Seguros AseguraRespCivil="ASEGURADORA" PolizaRespCivil="770133976" />
+        </cartaporte30:Autotransporte>
+      </cartaporte30:Mercancias>
+      <cartaporte30:FiguraTransporte>
+        <cartaporte30:TiposFigura TipoFigura="01" RFCFigura="GAAA8110103K3" NumLicencia="00086119" NombreFigura="ANGEL GARCIA ALEJO">
+          <cartaporte30:Domicilio Estado="MIC" Pais="MEX" CodigoPostal="58149" />
+        </cartaporte30:TiposFigura>
+      </cartaporte30:FiguraTransporte>
+    </cartaporte30:CartaPorte>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="64c88f88-96f1-4375-a97a-0e2385861b0f" FechaTimbrado="2023-12-06T18:33:45" RfcProvCertif="SPR190613I52" SelloCFD="ToWVo/s0OXuZ4oYjJJPsX4Gl63A/6m7jrc9o9/x1TyfvgEKC2z75albpmVaxlXf1kC+eoeNlVKi7sdOfCA6FRNzlliDx26If2Nwuy9EI6JlRIOlDwpl5MACdt7dEy0tNmCDcQOZ0BQwxM2ukbDGWPWzZSgumM24DZRZgTgmvGYbCrHTpyjm43qWeqeu/3Nu6Go60NkVYqBM2dDRQcwpL0AZFLyG51jkS/tXKSaCSrNgMvn4NoY5xeKy8p/NIbUAuC57IGXtSm3bPD71C2QOb9gc/FnRjOHZcY4Iw7OABitObQmDLFDSLgGdTNCY6wv+wdpfkJRD4jkqKYpaL4jbe6g==" NoCertificadoSAT="30001000000500003456" SelloSAT="T8+gYqhLXz16U51XEISX/TH7eddtZiX/fLNrYLdVxZbPhuW6G/7s58aF4rj9fS/mqjU8KSYFJkim3HC9Ooue1+ykiOfxduvFjmiI6BbjkItlhcZrU2jcdz09bnl7IIim2Jlgs34fT26q02iLYHM8hiblnIUoBLQf5kJz16qyre9GOnK7FULiBQqHJzWDdOrgAkp2/T4qwtDHpEB/OKDltWKR6ylJk8kGgOw9XZNm8eGFIpuap3kkVzpKXGCrkEzrUzIv/uOeA4HR8J/gJdgG5f8l+X4Wtal4jyV6NLgvnEpWN/1rnB0NA/vU/zqZIIuFhsQacv/r4NeywA5HMzMP1Q==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/CartaPorte30 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte30.xsd" Version="4.0" Folio="4245" Fecha="2023-12-04T09:31:15" Sello="dd7FZZyIapxNSmfs/O+w9ZqFkiJHrhNZW5Mveqpki8tbrbTPxAhyPBJTw7PoNLWZy0DiXqzr66NngHn1sbg/h8aHI6yB2fd/J2K9Q5DHB2OcNgUdesQhzt9s2mw+Vpg8bU6Ty/kmaZWAE/PQTUkL4yRGQZcIER+P25P/8WkrriJEu966wUZVuivB15MAPTIBU8j63C88FkaPjL8tne+vMEYEHSLnXTz1AgKy9kkG19IKVbHvtFsCDO2eRQnruq1xJ7RVzHOq3KKk/DL+UIrLvxFnqhV5Yf0jKQ2cU2eqgIrcfe7tHZBi2KnzQzQW7XN4p+zF9bokZ/N6jq5/lBRW8w==" FormaPago="99" NoCertificado="00001000000513641416" Certificado="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" CondicionesDePago="CREDITO" SubTotal="23674.14" Moneda="MXN" Total="26515.04" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="58255" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cartaporte30="http://www.sat.gob.mx/CartaPorte30">
+  <cfdi:Emisor Rfc="LSO180424S49" Nombre="LOGISTICA SOREY" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="CMO990720SX8" Nombre="CEMENTOS MOCTEZUMA" DomicilioFiscalReceptor="11000" RegimenFiscalReceptor="601" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="78101802" Cantidad="1.000000" ClaveUnidad="E48" Unidad=" Unidad de servicio" Descripcion="VIAJE DE MATERIAL" ValorUnitario="23674.140000" Importe="23674.14" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="23674.14" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3787.87" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="23674.14" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.040000" Importe="946.97" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="946.97" TotalImpuestosTrasladados="3787.87">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="002" Importe="946.97" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="23674.14" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3787.87" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <cartaporte30:CartaPorte Version="3.0" IdCCP="CCC22B02-F490-4FA8-9E25-5B400189063D" TranspInternac="No" TotalDistRec="307.00">
+      <cartaporte30:Ubicaciones>
+        <cartaporte30:Ubicacion TipoUbicacion="Origen" RFCRemitenteDestinatario="CMO990720SX8" NombreRemitenteDestinatario="CEMENTOS MOCTEZUMA SA DE CV" FechaHoraSalidaLlegada="2023-03-12T04:00:00">
+          <cartaporte30:Domicilio Calle="Carrt. Tezoyuca-Tepetzingo km. 1.9" Municipio="008" Estado="MOR" Pais="MEX" CodigoPostal="62767" />
+        </cartaporte30:Ubicacion>
+        <cartaporte30:Ubicacion TipoUbicacion="Destino" RFCRemitenteDestinatario="CMO990720SX8" NombreRemitenteDestinatario="CEMENTOS MOCTEZUMA SA DE CV" FechaHoraSalidaLlegada="2023-04-12T20:00:00" DistanciaRecorrida="307.00">
+          <cartaporte30:Domicilio Calle="Carretera Puerto Marquez-Cayaco" NumeroExterior="S/N" Localidad="01" Municipio="001" Estado="GRO" Pais="MEX" CodigoPostal="39813" />
+        </cartaporte30:Ubicacion>
+      </cartaporte30:Ubicaciones>
+      <cartaporte30:Mercancias PesoBrutoTotal="50000.000" UnidadPeso="KGM" NumTotalMercancias="1">
+        <cartaporte30:Mercancia BienesTransp="30111601" Descripcion="CEMENTO GRIS ENVA 50 KG CPC 30R /RS" Cantidad="50.000000" ClaveUnidad="NT" Unidad="Tonelada neta" PesoEnKg="50000.000" />
+        <cartaporte30:Autotransporte PermSCT="TPAF01" NumPermisoSCT="1633LSO14012019021001009">
+          <cartaporte30:IdentificacionVehicular ConfigVehicular="T3S2R4" PesoBrutoVehicular="0.00" PlacaVM="16AP4M" AnioModeloVM="2021" />
+          <cartaporte30:Seguros AseguraRespCivil="QUALITAS COMPAÑIA DE SEGUROS SAB DE CV" PolizaRespCivil="2700295649" />
+          <cartaporte30:Remolques>
+            <cartaporte30:Remolque SubTipoRem="CTR021" Placa="44UJ3D" />
+            <cartaporte30:Remolque SubTipoRem="CTR021" Placa="45UJ3D" />
+          </cartaporte30:Remolques>
+        </cartaporte30:Autotransporte>
+      </cartaporte30:Mercancias>
+      <cartaporte30:FiguraTransporte>
+        <cartaporte30:TiposFigura TipoFigura="01" RFCFigura="AICA800907A91" NumLicencia="HGO0012175" NombreFigura="ANTONIO ARIAS CERON">
+          <cartaporte30:Domicilio Localidad="06" Municipio="053" Estado="MIC" Pais="MEX" CodigoPostal="58255" />
+        </cartaporte30:TiposFigura>
+      </cartaporte30:FiguraTransporte>
+    </cartaporte30:CartaPorte>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

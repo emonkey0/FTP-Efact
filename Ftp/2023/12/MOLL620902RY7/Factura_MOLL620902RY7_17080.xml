@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/CartaPorte30 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte30.xsd" Version="4.0" Folio="17080" Fecha="2023-12-13T14:00:02" Sello="DGryosIv2vf/mwGYRDVU8py+Emt0Zzs/tSsshAwgQVFTwSqsdPNG8DouWuN4p6eRLg9AyYlHgdRcqiwusX0sM6YCjWmwDYDGQNvrEpXA7ujkZevj/p+6eKKbw7PJQpgsTdf8oArQLm3pxqfXegk8jtm0pliVRc7OW7fZpppR2/bX51pwdo887Gwqee3J6ubCIwCBrNwgKlKI+LQBAicsWW4WUMFEpZLtirmBq7GOsW3ddETM86xH0sM3cTiVDY2JUj3/1puIYDZOa5i+gNrrd+aHIbmPc0cnNJo+Q1LbR5dZro6HQ9Nem3CJOYoxrhU7R9X0hvdPY8K933gQpJs1LA==" FormaPago="99" NoCertificado="00001000000503602473" Certificado="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" SubTotal="12403.00" Moneda="MXN" Total="13891.36" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="25020" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cartaporte30="http://www.sat.gob.mx/CartaPorte30">
+  <cfdi:Emisor Rfc="MOLL620902RY7" Nombre="LUIS FERNANDO MORALES LEE" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="MCM841113LT5" Nombre="MAHLE COMPONENTES DE MOTOR DE MEXICO" DomicilioFiscalReceptor="25900" RegimenFiscalReceptor="601" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="78101806" NoIdentificacion="LARGR" Cantidad="1.000000" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="SERVICIO DE FLETE A LAREDO, TX. EN RABON / TORTON SE ANEXAN REMISIONES: 83178911, 83178974" ValorUnitario="12403.000000" Importe="12403.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12403.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1984.48" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="12403.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.040000" Importe="496.12" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="496.12" TotalImpuestosTrasladados="1984.48">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="002" Importe="496.12" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="12403.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1984.48" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <cartaporte30:CartaPorte Version="3.0" IdCCP="CCCA42A5-B5E4-4646-896E-BA9ED1FECF50" TranspInternac="Sí" RegimenAduanero="EXD" EntradaSalidaMerc="Salida" PaisOrigenDestino="USA" ViaEntradaSalida="01" TotalDistRec="300.00">
+      <cartaporte30:Ubicaciones>
+        <cartaporte30:Ubicacion TipoUbicacion="Origen" RFCRemitenteDestinatario="MME0108109Q7" NombreRemitenteDestinatario="MAHLE DE MEXICO S DE R L DE CV" FechaHoraSalidaLlegada="2023-12-01T12:00:00">
+          <cartaporte30:Domicilio Calle="BLVD. DEL PARQUE INDUSTRIAL" NumeroExterior="3045" Colonia="2036" Localidad="16" Municipio="027" Estado="COA" Pais="MEX" CodigoPostal="25903" />
+        </cartaporte30:Ubicacion>
+        <cartaporte30:Ubicacion TipoUbicacion="Destino" RFCRemitenteDestinatario="XEXX010101000" NombreRemitenteDestinatario="TRAMITACIONES GROUP FORWARDING" NumRegIdTrib="742985063" ResidenciaFiscal="USA" FechaHoraSalidaLlegada="2023-12-01T18:00:00" DistanciaRecorrida="300.00">
+          <cartaporte30:Domicilio Colonia="UNIROYAL PARK" Localidad="LAREDO" Municipio="LAREDO" Estado="TX" Pais="USA" CodigoPostal="78045" />
+        </cartaporte30:Ubicacion>
+      </cartaporte30:Ubicaciones>
+      <cartaporte30:Mercancias PesoBrutoTotal="1701.000" UnidadPeso="KGM" NumTotalMercancias="1">
+        <cartaporte30:Mercancia BienesTransp="26101736" Descripcion="Pistones" Cantidad="4860.000000" ClaveUnidad="H87" Unidad="Pieza" MaterialPeligroso="No" PesoEnKg="1701.000" />
+        <cartaporte30:Autotransporte PermSCT="TPAF01" NumPermisoSCT="0515MOLL28072011021001016">
+          <cartaporte30:IdentificacionVehicular ConfigVehicular="C2" PesoBrutoVehicular="10000.00" PlacaVM="79AL1V" AnioModeloVM="2019" />
+          <cartaporte30:Seguros AseguraRespCivil="QUALITAS COMPAÑÍA DE SEGUROS S.A. DE C.V." PolizaRespCivil="3200326292" />
+        </cartaporte30:Autotransporte>
+      </cartaporte30:Mercancias>
+      <cartaporte30:FiguraTransporte>
+        <cartaporte30:TiposFigura TipoFigura="01" RFCFigura="SOHL660811CS4" NumLicencia="COAH109698" NombreFigura="LORENZO SOSA HERNANDEZ">
+          <cartaporte30:Domicilio Calle="OSCAR FLORES TAPIA" NumeroExterior="657" Colonia="1987" Localidad="16" Municipio="027" Estado="COA" Pais="MEX" CodigoPostal="25902" />
+        </cartaporte30:TiposFigura>
+      </cartaporte30:FiguraTransporte>
+    </cartaporte30:CartaPorte>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

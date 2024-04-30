@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd" Version="4.0" Serie="P" Folio="154" Fecha="2024-01-25T15:59:24" Sello="cp7o2lLVQ0W2vW9BG4Lr0/kphMQvGaQnVq3IB3KndPKzzWWI4qSaosFMIpqxtORL5NyKdxT7uyfYx0/Odp6Rbv8co0XGkI5i9bzct+k+AiM7hZ1jqUvitSgSaOq8/8RRX5f6uCMXTFy9dj03U7WFDctRDVHADmN5wY8YLcLm76beN5UGxbvAowHdpeiQjSqIiPDRqWHdw4fRpNYUWH05B3XNfksrYFEt2rUtmQCPnO/lGKfvPNjtQGiQWL1KBb1UPpn4DGDMF1pXV4KD26AK+rrA/inDrme4Tqk9WshKF65yw85GqFTIHA3X+TtmQI8XW6Juvy0gbF2jmuGOaLaoEA==" NoCertificado="30001000000500003434" Certificado="MIIFtjCCA56gAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MzQwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTI0ODU3WhcNMjcwNTE4MTI0ODU3WjCB3TEpMCcGA1UEAxMgSU5OT1ZBQ0lPTiBWQUxPUiBZIERFU0FSUk9MTE8gU0ExKTAnBgNVBCkTIElOTk9WQUNJT04gVkFMT1IgWSBERVNBUlJPTExPIFNBMSkwJwYDVQQKEyBJTk5PVkFDSU9OIFZBTE9SIFkgREVTQVJST0xMTyBTQTElMCMGA1UELRMcSVZEOTIwODEwR1UyIC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsMyIHgj/WC4HQ2kbANTwbjJQho3H4emTqZLLrGybmuGOWh7tUcPi6cG3tyzp5aryS9aVIUDdLyryL2E6WeRwF9ifhmG9FQD8PG/B9VVlj9/u7ob97jPMI1hHV9tE4zmHSQGVMQjdUWhyywPOf+Ia9gL0i2XRzK/A243dYfiFWaiG4VeLn5iSo669PS9PRKNpw725+57bLfPCYlq+JnCQD5pfDWnKiI+JCwBNS+q4xpv/eO9ife/9LpIGlobAd3OHB3Mw7Keij7GCSl98jp0gGxDU7GXnS851H9R6r4kADq49aR4kScCPukU5n865BZog2JUS1C5TT/IWgsgCu8I0wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAGeGwhK3QSs/tnvK/HXoPm7/R7SgVkhj/29wSjh8VtIYk3UMMyipOz/EwSFQN+QnNQ8BxNplEmgv8M8kDobbPlGaNiMEvqKLexZtUlpSolkkfiyvPMxWGn26bNmBGObshxHCAXlRyuRMpddunRNgOJ9mzgmkmuFY7fdGPcEUrkPgIkRX37a9HgQ5v+/IMYHvbwkjaK4vA45mDPxdRw8Mjr7MO2tMds9yz59ZargvO7TlF79XmfyfnsrkkSplVEXbae+uZ80YK+YHmkuwqBmXhcKa+YbiDZkIgM7l69NKKmK258jzEkmfnpbfekwH0Lc9CDv8wqA4mNNYFaeSJflR/jeiB0Rl50ZRyiaL8ncN15AA6lS9f7BeJfow/NNR4pv2Uk8C0Io6+PhSX8az5jhV6xrult2i/+7eoM0LRRvkg7Qyp/aDpha8DoHhtDIy/g3xU0n408PkWCJceoPk/IwWgN4QiunRddXeS2eNipJ3E2VbbOoxtH5xF2IsishbTWpxCYBg+w80WgewwODG18CTCldCo3g5QrgkfcvOHvtN+EL9XAJbS6iUAOyHumRgGh3TNMIEld8DUMM6nylVcv0DRi27BnJLhbr+pbXWh0a5eU4Uear0/TXsv9IR60fNrY/7juo+OsBV7q0vKxATR4CAbR2+2/eHczloUYEgpUyYiVK8=" SubTotal="0" Moneda="XXX" Total="0" TipoDeComprobante="P" Exportacion="01" LugarExpedicion="58000" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:pago20="http://www.sat.gob.mx/Pagos20">
+  <cfdi:Emisor Rfc="IVD920810GU2" Nombre="INNOVACION VALOR Y DESARROLLO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="AABF800614HI0" Nombre="FELIX MANUEL ANDRADE BALLADO" DomicilioFiscalReceptor="86400" RegimenFiscalReceptor="612" UsoCFDI="CP01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago" ValorUnitario="0" Importe="0" ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <pago20:Pagos Version="2.0">
+      <pago20:Totales TotalRetencionesIVA="127826.6" TotalRetencionesISR="59900" TotalTrasladosBaseIVA16="1198000" TotalTrasladosImpuestoIVA16="191680" MontoTotalPagos="303488.35" />
+      <pago20:Pago FechaPago="2024-01-25T12:00:00" FormaDePagoP="01" MonedaP="MXN" TipoCambioP="1" Monto="303488.35" NumOperacion="1">
+        <pago20:DoctoRelacionado IdDocumento="3e3baa4c-79ca-4528-a941-4eb985c050d5" Serie="F" Folio="295" MonedaDR="MXN" EquivalenciaDR="1" NumParcialidad="1" ImpSaldoAnt="303488.35" ImpPagado="303488.35" ImpSaldoInsoluto="0.00" ObjetoImpDR="02">
+          <pago20:ImpuestosDR>
+            <pago20:RetencionesDR>
+              <pago20:RetencionDR BaseDR="1198000.00" ImpuestoDR="002" TipoFactorDR="Tasa" TasaOCuotaDR="0.106700" ImporteDR="127826.60" />
+              <pago20:RetencionDR BaseDR="1198000.00" ImpuestoDR="001" TipoFactorDR="Tasa" TasaOCuotaDR="0.050000" ImporteDR="59900.00" />
+            </pago20:RetencionesDR>
+            <pago20:TrasladosDR>
+              <pago20:TrasladoDR BaseDR="1198000.00" ImpuestoDR="002" TipoFactorDR="Tasa" TasaOCuotaDR="0.160000" ImporteDR="191680.00" />
+            </pago20:TrasladosDR>
+          </pago20:ImpuestosDR>
+        </pago20:DoctoRelacionado>
+        <pago20:ImpuestosP>
+          <pago20:RetencionesP>
+            <pago20:RetencionP ImpuestoP="002" ImporteP="127826.60" />
+            <pago20:RetencionP ImpuestoP="001" ImporteP="59900.00" />
+          </pago20:RetencionesP>
+          <pago20:TrasladosP>
+            <pago20:TrasladoP BaseP="1198000.00" ImpuestoP="002" TipoFactorP="Tasa" TasaOCuotaP="0.160000" ImporteP="191680.00" />
+          </pago20:TrasladosP>
+        </pago20:ImpuestosP>
+      </pago20:Pago>
+    </pago20:Pagos>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="616c0d6d-14bc-4465-9a3b-2537de3ba55c" FechaTimbrado="2024-01-25T16:03:21" RfcProvCertif="SPR190613I52" SelloCFD="cp7o2lLVQ0W2vW9BG4Lr0/kphMQvGaQnVq3IB3KndPKzzWWI4qSaosFMIpqxtORL5NyKdxT7uyfYx0/Odp6Rbv8co0XGkI5i9bzct+k+AiM7hZ1jqUvitSgSaOq8/8RRX5f6uCMXTFy9dj03U7WFDctRDVHADmN5wY8YLcLm76beN5UGxbvAowHdpeiQjSqIiPDRqWHdw4fRpNYUWH05B3XNfksrYFEt2rUtmQCPnO/lGKfvPNjtQGiQWL1KBb1UPpn4DGDMF1pXV4KD26AK+rrA/inDrme4Tqk9WshKF65yw85GqFTIHA3X+TtmQI8XW6Juvy0gbF2jmuGOaLaoEA==" NoCertificadoSAT="30001000000500003456" SelloSAT="P0wdXVGoDBf/DaPNyrJ8FZnczUDM/1MD9o2D2bZjYGOfBp9PadPGXuugQ+9F421GxtBdENjd0nB6BgNov4BLSuyAo3JsiLmo7kO8xiVkQyFYVlE+tgYr0FkEuS/4CuAbWMKHN9Zg5h8NVQP0hvOgLm89DBNHAU+TZxqaIjWn5DApNmtSEPSIBEmJ/UMQPLree9+srBoYKp08JwC7oODYb3PiF+X0gQd4r0R5RAw1WL4srGcCJTzauFV1PYDFrsSjbZzb64EGDrbBQcDdUoZcY1TIHxfwmu36223TkHtp/ZqEstwsfsJZJHX7Grct/AA0A4BdhZ7w7dtcj0aQLbOnHg==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

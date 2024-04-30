@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/notariospublicos http://www.sat.gob.mx/sitio_internet/cfd/notariospublicos/notariospublicos.xsd" Version="4.0" Folio="192" Fecha="2023-09-05T15:24:42" Sello="oweHYcxC8D7nlyWEKqzgO6I60NfmADycURIh+krSVuWi4oH/pffiO0V5nSKauMlT6xbte0UyC/tKEGipx17syn0mOfvZw1wd4tvqLLGi5K6h6z2hND2rt/KWQNDXYOxdoDi3u2YVAE5xAZpACplIyvdJhGL4UKYZHIsPC/gLiZFno992OjreqNAFp1i44X1bZdN9sSPDv9JiSS9Ds8RaWxeznsnN0R6fdy26tYAYPW6Wt0KgW4OLAjX/Y6LsfxehE/E5ovL7Lj1ZITRv5fCPm45uGfMV36WBXauXbsNM0tV9L85fQu7LJGzCIMuxXIJ32FxhELh3+4KDYFQSQG5c8w==" FormaPago="01" NoCertificado="30001000000500003434" Certificado="MIIFtjCCA56gAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MzQwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTI0ODU3WhcNMjcwNTE4MTI0ODU3WjCB3TEpMCcGA1UEAxMgSU5OT1ZBQ0lPTiBWQUxPUiBZIERFU0FSUk9MTE8gU0ExKTAnBgNVBCkTIElOTk9WQUNJT04gVkFMT1IgWSBERVNBUlJPTExPIFNBMSkwJwYDVQQKEyBJTk5PVkFDSU9OIFZBTE9SIFkgREVTQVJST0xMTyBTQTElMCMGA1UELRMcSVZEOTIwODEwR1UyIC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsMyIHgj/WC4HQ2kbANTwbjJQho3H4emTqZLLrGybmuGOWh7tUcPi6cG3tyzp5aryS9aVIUDdLyryL2E6WeRwF9ifhmG9FQD8PG/B9VVlj9/u7ob97jPMI1hHV9tE4zmHSQGVMQjdUWhyywPOf+Ia9gL0i2XRzK/A243dYfiFWaiG4VeLn5iSo669PS9PRKNpw725+57bLfPCYlq+JnCQD5pfDWnKiI+JCwBNS+q4xpv/eO9ife/9LpIGlobAd3OHB3Mw7Keij7GCSl98jp0gGxDU7GXnS851H9R6r4kADq49aR4kScCPukU5n865BZog2JUS1C5TT/IWgsgCu8I0wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAGeGwhK3QSs/tnvK/HXoPm7/R7SgVkhj/29wSjh8VtIYk3UMMyipOz/EwSFQN+QnNQ8BxNplEmgv8M8kDobbPlGaNiMEvqKLexZtUlpSolkkfiyvPMxWGn26bNmBGObshxHCAXlRyuRMpddunRNgOJ9mzgmkmuFY7fdGPcEUrkPgIkRX37a9HgQ5v+/IMYHvbwkjaK4vA45mDPxdRw8Mjr7MO2tMds9yz59ZargvO7TlF79XmfyfnsrkkSplVEXbae+uZ80YK+YHmkuwqBmXhcKa+YbiDZkIgM7l69NKKmK258jzEkmfnpbfekwH0Lc9CDv8wqA4mNNYFaeSJflR/jeiB0Rl50ZRyiaL8ncN15AA6lS9f7BeJfow/NNR4pv2Uk8C0Io6+PhSX8az5jhV6xrult2i/+7eoM0LRRvkg7Qyp/aDpha8DoHhtDIy/g3xU0n408PkWCJceoPk/IwWgN4QiunRddXeS2eNipJ3E2VbbOoxtH5xF2IsishbTWpxCYBg+w80WgewwODG18CTCldCo3g5QrgkfcvOHvtN+EL9XAJbS6iUAOyHumRgGh3TNMIEld8DUMM6nylVcv0DRi27BnJLhbr+pbXWh0a5eU4Uear0/TXsv9IR60fNrY/7juo+OsBV7q0vKxATR4CAbR2+2/eHczloUYEgpUyYiVK8=" SubTotal="38.79" Moneda="MXN" Total="45.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="82127" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:notariospublicos="http://www.sat.gob.mx/notariospublicos">
+  <cfdi:Emisor Rfc="IVD920810GU2" Nombre="INNOVACION VALOR Y DESARROLLO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="AABF800614HI0" Nombre="FELIX MANUEL ANDRADE BALLADO" DomicilioFiscalReceptor="86400" RegimenFiscalReceptor="612" UsoCFDI="S01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="31162800" Cantidad="1.00" ClaveUnidad="SET" Unidad="Conjunto" Descripcion="Adaptador de 75 mm magnético PR Para puntas, Expert" ValorUnitario="38.79" Importe="38.79" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="38.79" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="6.21">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="38.79" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6.21" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <notariospublicos:NotariosPublicos Version="1.0">
+      <notariospublicos:DescInmuebles>
+        <notariospublicos:DescInmueble TipoInmueble="01" Calle="5" Municipio="mor" Estado="16" Pais="MEX" CodigoPostal="58000" />
+      </notariospublicos:DescInmuebles>
+      <notariospublicos:DatosOperacion NumInstrumentoNotarial="999" FechaInstNotarial="2023-09-05" MontoOperacion="8000.000000" Subtotal="0.000000" IVA="0.000000" />
+      <notariospublicos:DatosNotario CURP="GADL900517HDFRPG08" NumNotaria="233" EntidadFederativa="16" />
+      <notariospublicos:DatosEnajenante CoproSocConyugalE="No">
+        <notariospublicos:DatosUnEnajenante Nombre="DIEGO" ApellidoPaterno="GARCIA" RFC="GALD9005173L7" CURP="GALD900517HDFRPG08" />
+      </notariospublicos:DatosEnajenante>
+      <notariospublicos:DatosAdquiriente CoproSocConyugalE="No">
+        <notariospublicos:DatosUnAdquiriente Nombre="JUAN" ApellidoPaterno="LOPEZ" RFC="GALD9005173L7" CURP="GALD900517HDFRGP08" />
+      </notariospublicos:DatosAdquiriente>
+    </notariospublicos:NotariosPublicos>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="5e8bb5e6-d9a0-4a60-8d93-8f920f417b23" FechaTimbrado="2023-09-05T16:25:11" RfcProvCertif="SPR190613I52" SelloCFD="oweHYcxC8D7nlyWEKqzgO6I60NfmADycURIh+krSVuWi4oH/pffiO0V5nSKauMlT6xbte0UyC/tKEGipx17syn0mOfvZw1wd4tvqLLGi5K6h6z2hND2rt/KWQNDXYOxdoDi3u2YVAE5xAZpACplIyvdJhGL4UKYZHIsPC/gLiZFno992OjreqNAFp1i44X1bZdN9sSPDv9JiSS9Ds8RaWxeznsnN0R6fdy26tYAYPW6Wt0KgW4OLAjX/Y6LsfxehE/E5ovL7Lj1ZITRv5fCPm45uGfMV36WBXauXbsNM0tV9L85fQu7LJGzCIMuxXIJ32FxhELh3+4KDYFQSQG5c8w==" NoCertificadoSAT="30001000000500003456" SelloSAT="B/NPCWFQGa7EeQPDbUjxUlUcL2eMrwbhf+tSTQ/LyeyVupiFGmUcG7iuzEkKcAMszA2R3R5Fo79SW7GYf2ltMZyqHdQ3fXZOlJnhm7qfH6xd9Atfd3XG7PXhjRpXN6dw3OfPGymVE7S2apPzgLen3/PAg+erFORXqTIlsSsdf4Rs2B6yosyMWHHnVrWe+FfFdA7aD08t9rfvbPKlKdjb2BbTHOeBemOAlZS8v3hwkrkXqGxcKRu8SREeyID5d2IoesJQBsQcRZhmJO3RtLo1EAapYoEr90hvh6Y9Cupqwlnrpzl1DK2BxYm6KrRa25IPMxhKLq3IBijtDCgL68ubXQ==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

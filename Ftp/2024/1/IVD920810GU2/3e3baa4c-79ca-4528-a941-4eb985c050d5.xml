@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd" Version="4.0" Serie="F" Folio="295" Fecha="2024-01-25T10:08:50" Sello="YiZy+IZ0HdbqRabtX86bQHvAiduh4ugac4zJm7mxU5xct956ENZryWUsshM0kjntkxgy5oSjqPWn4xenfFbBvEpb7P+XzFUWNuzpvIRSQBv1qWkm2rYsXKQLPzvruURCZWKeIO5JcjsLfUOZNqjw0DIkWrS34aH1OxznQeS0yfyCzvG7VG76rysEhK9Ter8C9mLc9l9XhoQdJX8YD0k5UheADHFkgpEtOqE62fr1ul0ebDscqms8XuDJGMnyE//+SDpUE1XsA4x8wrkcN7gAymoKgZ04NireNuhE23qAP1fKrCM2NeyCSLANtkI55mKIXd8UPhlTOfrHfg/MxKWzjA==" FormaPago="01" NoCertificado="30001000000500003434" Certificado="MIIFtjCCA56gAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MzQwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTI0ODU3WhcNMjcwNTE4MTI0ODU3WjCB3TEpMCcGA1UEAxMgSU5OT1ZBQ0lPTiBWQUxPUiBZIERFU0FSUk9MTE8gU0ExKTAnBgNVBCkTIElOTk9WQUNJT04gVkFMT1IgWSBERVNBUlJPTExPIFNBMSkwJwYDVQQKEyBJTk5PVkFDSU9OIFZBTE9SIFkgREVTQVJST0xMTyBTQTElMCMGA1UELRMcSVZEOTIwODEwR1UyIC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqsMyIHgj/WC4HQ2kbANTwbjJQho3H4emTqZLLrGybmuGOWh7tUcPi6cG3tyzp5aryS9aVIUDdLyryL2E6WeRwF9ifhmG9FQD8PG/B9VVlj9/u7ob97jPMI1hHV9tE4zmHSQGVMQjdUWhyywPOf+Ia9gL0i2XRzK/A243dYfiFWaiG4VeLn5iSo669PS9PRKNpw725+57bLfPCYlq+JnCQD5pfDWnKiI+JCwBNS+q4xpv/eO9ife/9LpIGlobAd3OHB3Mw7Keij7GCSl98jp0gGxDU7GXnS851H9R6r4kADq49aR4kScCPukU5n865BZog2JUS1C5TT/IWgsgCu8I0wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAGeGwhK3QSs/tnvK/HXoPm7/R7SgVkhj/29wSjh8VtIYk3UMMyipOz/EwSFQN+QnNQ8BxNplEmgv8M8kDobbPlGaNiMEvqKLexZtUlpSolkkfiyvPMxWGn26bNmBGObshxHCAXlRyuRMpddunRNgOJ9mzgmkmuFY7fdGPcEUrkPgIkRX37a9HgQ5v+/IMYHvbwkjaK4vA45mDPxdRw8Mjr7MO2tMds9yz59ZargvO7TlF79XmfyfnsrkkSplVEXbae+uZ80YK+YHmkuwqBmXhcKa+YbiDZkIgM7l69NKKmK258jzEkmfnpbfekwH0Lc9CDv8wqA4mNNYFaeSJflR/jeiB0Rl50ZRyiaL8ncN15AA6lS9f7BeJfow/NNR4pv2Uk8C0Io6+PhSX8az5jhV6xrult2i/+7eoM0LRRvkg7Qyp/aDpha8DoHhtDIy/g3xU0n408PkWCJceoPk/IwWgN4QiunRddXeS2eNipJ3E2VbbOoxtH5xF2IsishbTWpxCYBg+w80WgewwODG18CTCldCo3g5QrgkfcvOHvtN+EL9XAJbS6iUAOyHumRgGh3TNMIEld8DUMM6nylVcv0DRi27BnJLhbr+pbXWh0a5eU4Uear0/TXsv9IR60fNrY/7juo+OsBV7q0vKxATR4CAbR2+2/eHczloUYEgpUyYiVK8=" SubTotal="300000.00" Descuento="500.00" Moneda="MXN" Total="303488.35" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="58000" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:implocal="http://www.sat.gob.mx/implocal">
+  <cfdi:Emisor Rfc="IVD920810GU2" Nombre="INNOVACION VALOR Y DESARROLLO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="AABF800614HI0" Nombre="FELIX MANUEL ANDRADE BALLADO" DomicilioFiscalReceptor="86400" RegimenFiscalReceptor="612" UsoCFDI="S01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="E48" Descripcion="CONSTRUCCION PA RASCAR LO QUE SE PUEDA DEL FINAL DE SEXENIO" ValorUnitario="300000.00" Importe="300000.00" Descuento="500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="299500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="47920.00" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="299500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.106700" Importe="31956.65" />
+          <cfdi:Retencion Base="299500" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.050000" Importe="14975.00" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="46931.65" TotalImpuestosTrasladados="47920.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="002" Importe="31956.65" />
+      <cfdi:Retencion Impuesto="001" Importe="14975.00" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="299500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="47920.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <implocal:ImpuestosLocales version="1.0" TotaldeRetenciones="17000.00" TotaldeTraslados="20000.00">
+      <implocal:RetencionesLocales ImpLocRetenido="IMCD NO SE QUE SIGNIFIQUE" TasadeRetencion="10.00" Importe="1000.00" />
+      <implocal:RetencionesLocales ImpLocRetenido="IMPUESTO MUY ALTO" TasadeRetencion="2.00" Importe="16000.00" />
+      <implocal:TrasladosLocales ImpLocTrasladado="IMPUESTO MUY ALTO" TasadeTraslado="20.00" Importe="20000.00" />
+    </implocal:ImpuestosLocales>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="3e3baa4c-79ca-4528-a941-4eb985c050d5" FechaTimbrado="2024-01-25T10:19:42" RfcProvCertif="SPR190613I52" SelloCFD="YiZy+IZ0HdbqRabtX86bQHvAiduh4ugac4zJm7mxU5xct956ENZryWUsshM0kjntkxgy5oSjqPWn4xenfFbBvEpb7P+XzFUWNuzpvIRSQBv1qWkm2rYsXKQLPzvruURCZWKeIO5JcjsLfUOZNqjw0DIkWrS34aH1OxznQeS0yfyCzvG7VG76rysEhK9Ter8C9mLc9l9XhoQdJX8YD0k5UheADHFkgpEtOqE62fr1ul0ebDscqms8XuDJGMnyE//+SDpUE1XsA4x8wrkcN7gAymoKgZ04NireNuhE23qAP1fKrCM2NeyCSLANtkI55mKIXd8UPhlTOfrHfg/MxKWzjA==" NoCertificadoSAT="30001000000500003456" SelloSAT="WdYajvnSC+4f94a67vurm43ecUmH3wR29U9Q/i93HJy043bJFE4KQp3YeCH8klcufaMnppG+jKSJerzTwCa5jK47Np1dtQMvFZuT4ssgM9mw6o+n3aEmyKXHm0uDMcD7nvkpGf/ePju8X1ZPX+r/kypiC/HK3CwLFqpgz09F30tKE1n7kidHuD20oRMFt+LpuI577xppQiGZJvrUuw+BUHdgc+oHdusmimwVzKJ81z7WS2bxB/Xgizupa0mjJbaCZVa4wX4HyeJ4+BvLUwMTHMG+gkS/3P8chdVE0hMIcoEbC9zlCRKTaeBOD95hUEWajTQkulKtYSZQWdHNy7+f6A==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
