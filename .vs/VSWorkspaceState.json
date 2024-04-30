@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
-    "\\bin\\Debug",
-    "\\My Project"
+    "\\obj"
   ],
-  "SelectedNode": "\\helloworld.vb",
+  "SelectedNode": "\\FTP-Efact.sln",
   "PreviewInSolutionExplorer": false
 }

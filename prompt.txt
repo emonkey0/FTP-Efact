@@ -1,0 +1,4 @@
+
+Necesito un software hecho en visual studio utilizando .net 4.6 con el lenguaje vb y windows form,
+El software tiene que recibir en un label la direccion a la cual conectarse en el ftp,
+poder recibir un una textoRFC con el cual pueda buscar un archivo dentro del servidor ftp y de asi requerirse agregar al filtro una fecha recibida dentro del windows form.
