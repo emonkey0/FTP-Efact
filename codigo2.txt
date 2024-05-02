@@ -1,0 +1,231 @@
+Imports System.Net
+Imports System.IO
+Imports System.Windows.Forms
+
+Public Class MainForm
+    Private ftpServer As String = "ftp://192.168.1.12:2221"
+    Private ftpUsername As String = "android"
+    Private ftpPassword As String = "android"
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Conectar al servidor FTP al inicio
+        If Not ConnectToFTP() Then
+            MessageBox.Show("No se pudo conectar al servidor.")
+            Application.Exit()
+        End If
+    End Sub
+
+    Private Function ConnectToFTP() As Boolean
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create(ftpServer), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+            request.GetResponse()
+            Return True
+        Catch ex As Exception
+            Return False
+        End Try
+    End Function
+
+    Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles Buscar.Click
+        Dim rfc As String = RFCTextBox.Text
+        Dim uuid As String = UUIDTextBox.Text
+        Dim startDate As DateTime = StartDateTimePicker.Value
+        Dim endDate As DateTime = EndDateTimePicker.Value
+
+        ' Limpiar DataGridView antes de realizar una nueva búsqueda
+        DataGridView1.Rows.Clear()
+
+        If String.IsNullOrWhiteSpace(rfc) AndAlso String.IsNullOrWhiteSpace(uuid) Then
+            ' Caso 1: Búsqueda por rango de fechas
+            SearchByDate(startDate, endDate)
+        ElseIf Not String.IsNullOrWhiteSpace(rfc) AndAlso String.IsNullOrWhiteSpace(uuid) Then
+            ' Caso 2: Búsqueda por RFC y rango de fechas
+            SearchByRFC(rfc, startDate, endDate)
+        ElseIf String.IsNullOrWhiteSpace(rfc) AndAlso Not String.IsNullOrWhiteSpace(uuid) Then
+            ' Caso 3: Búsqueda por UUID
+            SearchByUUID(uuid)
+        End If
+    End Sub
+    Private Sub SearchByDate(startDate As DateTime, endDate As DateTime)
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create(ftpServer), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+
+            Using response As FtpWebResponse = DirectCast(request.GetResponse(), FtpWebResponse)
+                Using stream As Stream = response.GetResponseStream()
+                    Using reader As New StreamReader(stream)
+                        Dim directories As New List(Of String)()
+                        Dim line As String = reader.ReadLine()
+                        While line IsNot Nothing
+                            If IsDateFolderInRange(line, startDate, endDate) Then
+                                directories.Add(line)
+                            End If
+                            line = reader.ReadLine()
+                        End While
+
+                        ' Recuperar archivos .xml dentro de los directorios encontrados
+                        For Each directory In directories
+                            Dim files As List(Of String) = GetXmlFilesInDirectory(directory)
+                            AddFilesToDataGridView(files, directory)
+                        Next
+                    End Using
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error al realizar la búsqueda por fecha: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Function IsDateFolderInRange(folderName As String, startDate As DateTime, endDate As DateTime) As Boolean
+        Dim folderDate As DateTime
+        If DateTime.TryParse(folderName, folderDate) Then
+            Return folderDate >= startDate AndAlso folderDate <= endDate
+        End If
+        Return False
+    End Function
+
+    Private Function GetXmlFilesInDirectory(directory As String) As List(Of String)
+        Dim files As New List(Of String)()
+
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create($"{ftpServer}/{directory}"), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+
+            Using response As FtpWebResponse = DirectCast(request.GetResponse(), FtpWebResponse)
+                Using stream As Stream = response.GetResponseStream()
+                    Using reader As New StreamReader(stream)
+                        Dim line As String = reader.ReadLine()
+                        While line IsNot Nothing
+                            If line.EndsWith(".xml") Then
+                                files.Add($"{ftpServer}/{directory}/{line}")
+                            End If
+                            line = reader.ReadLine()
+                        End While
+                    End Using
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show($"Error al obtener archivos .xml en el directorio {directory}: {ex.Message}")
+        End Try
+
+        Return files
+    End Function
+
+    Private Sub AddFilesToDataGridView(files As List(Of String), directory As String)
+        For Each file In files
+            Dim fileName As String = Path.GetFileName(file)
+            Dim month As String = directory.Substring(directory.LastIndexOf("/") + 1)
+            Dim year As String = directory.Substring(0, directory.IndexOf("/"))
+            Dim rfc As String = fileName.Substring(0, fileName.LastIndexOf("."))
+            DataGridView1.Rows.Add(False, rfc, month, year, fileName, "Descargar")
+        Next
+    End Sub
+
+    Private Sub SearchByRFC(rfc As String, startDate As DateTime, endDate As DateTime)
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create(ftpServer), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+
+            Using response As FtpWebResponse = DirectCast(request.GetResponse(), FtpWebResponse)
+                Using stream As Stream = response.GetResponseStream()
+                    Using reader As New StreamReader(stream)
+                        Dim directories As New List(Of String)()
+                        Dim line As String = reader.ReadLine()
+                        While line IsNot Nothing
+                            If line.StartsWith(rfc) Then
+                                directories.Add(line)
+                            End If
+                            line = reader.ReadLine()
+                        End While
+
+                        ' Recuperar archivos .xml dentro de los directorios encontrados
+                        For Each directory In directories
+                            Dim files As List(Of String) = GetXmlFilesInDirectory(directory)
+                            AddFilesToDataGridView(files, directory)
+                        Next
+                    End Using
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error al realizar la búsqueda por RFC: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub SearchByUUID(uuid As String)
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create(ftpServer), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+
+            Using response As FtpWebResponse = DirectCast(request.GetResponse(), FtpWebResponse)
+                Using stream As Stream = response.GetResponseStream()
+                    Using reader As New StreamReader(stream)
+                        Dim line As String = reader.ReadLine()
+                        Dim found As Boolean = False
+                        While line IsNot Nothing
+                            If line.StartsWith(uuid) Then
+                                Dim directory As String = Path.GetDirectoryName(line)
+                                Dim files As List(Of String) = GetXmlFilesInDirectory(directory)
+                                AddFilesToDataGridView(files, directory)
+                                found = True
+                                Exit While
+                            End If
+                            line = reader.ReadLine()
+                        End While
+
+                        If Not found Then
+                            MessageBox.Show("Archivo con UUID no encontrado.")
+                        End If
+                    End Using
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error al realizar la búsqueda por UUID: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub DownloadButton_Click(sender As Object, e As EventArgs) Handles DownloadButton.Click
+        ' Verificar si se ha seleccionado una fila en DataGridView
+        If DataGridView1.SelectedRows.Count > 0 Then
+            ' Obtener la URL del archivo .xml seleccionado
+            Dim fileURL As String = DataGridView1.SelectedRows(0).Cells("Column5").Value.ToString()
+
+            ' Descargar el archivo .xml y guardarlo en el equipo del usuario
+            DownloadFile(fileURL)
+        Else
+            MessageBox.Show("Por favor, seleccione un archivo para descargar.")
+        End If
+    End Sub
+
+    Private Sub DownloadFile(fileURL As String)
+        Try
+            Dim request As FtpWebRequest = DirectCast(WebRequest.Create(fileURL), FtpWebRequest)
+            request.Method = WebRequestMethods.Ftp.DownloadFile
+            request.Credentials = New NetworkCredential(ftpUsername, ftpPassword)
+
+            Dim response As FtpWebResponse = DirectCast(request.GetResponse(), FtpWebResponse)
+            Dim responseStream As Stream = response.GetResponseStream()
+            Dim fileStream As New FileStream("downloaded_file.xml", FileMode.Create)
+
+            Dim buffer(1024) As Byte
+            Dim bytesRead As Integer = responseStream.Read(buffer, 0, buffer.Length)
+            While bytesRead > 0
+                fileStream.Write(buffer, 0, bytesRead)
+                bytesRead = responseStream.Read(buffer, 0, buffer.Length)
+            End While
+
+            fileStream.Close()
+            responseStream.Close()
+            response.Close()
+
+            MessageBox.Show("Archivo descargado exitosamente.")
+        Catch ex As Exception
+            MessageBox.Show("Error al descargar el archivo: " & ex.Message)
+        End Try
+    End Sub
+End Class
+

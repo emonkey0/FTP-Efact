@@ -1,0 +1,84 @@
+Imports System.Net
+Imports System
+Public Class Form1
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Conexión al servidor FTP y obtención de la lista de archivos
+        Dim ftpPath As String = "ftp://192.168.1.12:2221/2023/11/IVD920810GU2/"
+        Dim files As List(Of String) = ListarArchivosFTP(ftpPath)
+
+        ' Agregar los archivos al DataGridView
+        For Each file As String In files
+            Dim textBox As New TextBox()
+            textBox.Text = file
+            Dim rowIndex As Integer = DataGridView1.Rows.Add()
+            DataGridView1.Rows(rowIndex).Cells(0).Value = textBox.Text
+        Next
+    End Sub
+
+    Private Function ListarArchivosFTP(ByVal ftpPath As String) As List(Of String)
+        Dim files As New List(Of String)()
+        Try
+            Dim request As FtpWebRequest = WebRequest.Create(ftpPath)
+            request.Method = WebRequestMethods.Ftp.ListDirectory
+            request.Credentials = New NetworkCredential("android", "android")
+
+            Dim response As FtpWebResponse = request.GetResponse()
+            Dim responseStream As System.IO.Stream = response.GetResponseStream()
+            Dim reader As New System.IO.StreamReader(responseStream)
+
+            While Not reader.EndOfStream
+                Dim fileName As String = reader.ReadLine()
+                files.Add(fileName)
+            End While
+
+            reader.Close()
+            response.Close()
+        Catch ex As Exception
+            MessageBox.Show("Error al listar archivos FTP: " & ex.Message)
+        End Try
+
+        Return files
+    End Function
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+        ' Verificar si el clic fue en la segunda columna
+        If e.ColumnIndex = 0 AndAlso e.RowIndex >= 0 Then
+            ' Obtener el nombre del archivo
+            Dim fileName As String = DataGridView1.Rows(e.RowIndex).Cells(0).Value.ToString()
+
+            ' Descargar el archivo
+            DescargarArchivoFTP(fileName)
+        End If
+    End Sub
+
+    Private Sub DescargarArchivoFTP(ByVal fileName As String)
+        Dim ftpPath As String = "ftp://192.168.1.12:2221/2023/11/IVD920810GU2/" & fileName
+        Dim request As FtpWebRequest = WebRequest.Create(ftpPath)
+        request.Method = WebRequestMethods.Ftp.DownloadFile
+        request.Credentials = New NetworkCredential("android", "android")
+
+        Dim response As FtpWebResponse = request.GetResponse()
+        Dim responseStream As System.IO.Stream = response.GetResponseStream()
+
+        ' Mostrar el diálogo de guardar archivo
+        Dim saveFileDialog As New SaveFileDialog()
+        saveFileDialog.FileName = fileName
+        saveFileDialog.Filter = "Todos los archivos (*.*)|*.*"
+
+        If saveFileDialog.ShowDialog() = DialogResult.OK Then
+            Dim filePath As String = saveFileDialog.FileName
+
+            ' Guardar el archivo en la ubicación seleccionada por el usuario
+            Using fileStream As New System.IO.FileStream(filePath, System.IO.FileMode.Create)
+                responseStream.CopyTo(fileStream)
+            End Using
+
+            MessageBox.Show("Archivo descargado exitosamente: " & fileName)
+        End If
+
+        responseStream.Close()
+        response.Close()
+    End Sub
+
+End Class
