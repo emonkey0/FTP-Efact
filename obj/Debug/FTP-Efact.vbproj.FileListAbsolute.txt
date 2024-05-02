@@ -10,3 +10,4 @@ C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.exe
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.xml
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.pdb
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.MainForm.resources
+C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.Form1.resources
