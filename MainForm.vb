@@ -91,35 +91,59 @@ Public Class MainForm
             Next
         ElseIf String.IsNullOrEmpty(rfc) AndAlso Not String.IsNullOrEmpty(uuid) Then
             ' Tercer Caso: Buscar archivo por UUID
-            For year As Integer = 2021 To DateTime.Now.Year
+            Dim found As Boolean = False
+
+            For year As Integer = fechaInicio.Year To DateTime.Now.Year
                 For month As Integer = 1 To 12
-                    Dim xmlPath As String = ftpUrl & year & "/" & month & "/"
-                    Dim request As FtpWebRequest = CType(WebRequest.Create(xmlPath), FtpWebRequest)
+                    Dim monthPath As String = ftpUrl & year & "/" & month & "/"
+                    Dim request As FtpWebRequest = CType(WebRequest.Create(monthPath), FtpWebRequest)
                     request.Credentials = New NetworkCredential(ftpUser, ftpPassword)
                     request.Method = WebRequestMethods.Ftp.ListDirectory
 
                     Try
                         Using response As FtpWebResponse = CType(request.GetResponse(), FtpWebResponse)
                             Using reader As New StreamReader(response.GetResponseStream())
-                                Dim line As String
-                                While (InlineAssignHelper(line, reader.ReadLine())) IsNot Nothing
-                                    If line.EndsWith(".xml", StringComparison.OrdinalIgnoreCase) AndAlso line.StartsWith(uuid, StringComparison.OrdinalIgnoreCase) Then
-                                        xmlFiles.Add(xmlPath & line)
+                                Dim rfcDir As String
+                                While (InlineAssignHelper(rfcDir, reader.ReadLine())) IsNot Nothing
+                                    Dim rfcPath As String = monthPath & rfcDir & "/"
+                                    Dim rfcRequest As FtpWebRequest = CType(WebRequest.Create(rfcPath), FtpWebRequest)
+                                    rfcRequest.Credentials = New NetworkCredential(ftpUser, ftpPassword)
+                                    rfcRequest.Method = WebRequestMethods.Ftp.ListDirectory
+
+                                    Try
+                                        Using rfcResponse As FtpWebResponse = CType(rfcRequest.GetResponse(), FtpWebResponse)
+                                            Using rfcReader As New StreamReader(rfcResponse.GetResponseStream())
+                                                Dim xmlFile As String
+                                                While (InlineAssignHelper(xmlFile, rfcReader.ReadLine())) IsNot Nothing
+                                                    If xmlFile.EndsWith(".xml", StringComparison.OrdinalIgnoreCase) AndAlso
+                                               xmlFile.StartsWith(uuid, StringComparison.OrdinalIgnoreCase) Then
+                                                        xmlFiles.Add(rfcPath & xmlFile)
+                                                        found = True
+                                                        Exit For
+                                                    End If
+                                                End While
+                                            End Using
+                                        End Using
+                                    Catch ex As WebException
+                                        ' El directorio RFC no existe, continuar con el siguiente RFC
+                                    End Try
+
+                                    If found Then
                                         Exit For
                                     End If
                                 End While
                             End Using
                         End Using
                     Catch ex As WebException
-                        ' El directorio no existe, continuar con el siguiente mes
+                        ' El directorio del mes no existe, continuar con el siguiente mes
                     End Try
 
-                    If xmlFiles.Count > 0 Then
+                    If found Then
                         Exit For
                     End If
                 Next
 
-                If xmlFiles.Count > 0 Then
+                If found Then
                     Exit For
                 End If
             Next
