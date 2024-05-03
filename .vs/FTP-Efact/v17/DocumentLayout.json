@@ -3,12 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\users\\usuario\\desktop\\repositorios\\ftp-efact\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FTP-Efact||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\users\\usuario\\desktop\\repositorios\\ftp-efact\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\users\\usuario\\desktop\\repositorios\\ftp-efact\\my project\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:my project\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\users\\usuario\\desktop\\repositorios\\ftp-efact\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +28,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\My Project\\app.manifest",
+              "RelativeDocumentMoniker": "My Project\\app.manifest",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\My Project\\app.manifest",
+              "RelativeToolTip": "My Project\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-05-03T17:32:40.644Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FTP-Efact",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\FTP-Efact.vbproj",
+              "RelativeDocumentMoniker": "FTP-Efact.vbproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\FTP-Efact.vbproj",
+              "RelativeToolTip": "FTP-Efact.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-03T17:12:36.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-03T17:12:32.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainForm.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
               "RelativeDocumentMoniker": "MainForm.vb",
@@ -31,19 +83,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-03T16:06:45.258Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.vb",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
-              "RelativeDocumentMoniker": "MainForm.vb",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
-              "RelativeToolTip": "MainForm.vb",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAF0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-03T16:04:11.792Z",
-              "EditorCaption": ""
             }
           ]
         }
