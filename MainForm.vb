@@ -6,7 +6,7 @@ Imports System.Xml
 Public Class MainForm
 
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
-        Dim ftpUrl As String = "ftp://192.168.100.107:2221/"
+        Dim ftpUrl As String = "ftp://192.168.1.12:2221/"
         Dim ftpUser As String = "android"
         Dim ftpPassword As String = "android"
 
@@ -147,7 +147,7 @@ Public Class MainForm
             saveFileDialog.Filter = "Archivos XML (*.xml)|*.xml"
 
             If saveFileDialog.ShowDialog() = DialogResult.OK Then
-                Dim ftpUrl As String = "ftp://192.168.100.107:2221/"
+                Dim ftpUrl As String = "ftp://192.168.1.12:2221/"
                 Dim ftpUser As String = "android"
                 Dim ftpPassword As String = "android"
 
@@ -189,7 +189,7 @@ Public Class MainForm
             If folderBrowserDialog.ShowDialog() = DialogResult.OK Then
                 Dim selectedPath As String = folderBrowserDialog.SelectedPath
 
-                Dim ftpUrl As String = "ftp://192.168.100.107:2221/"
+                Dim ftpUrl As String = "ftp://192.168.1.12:2221/"
                 Dim ftpUser As String = "android"
                 Dim ftpPassword As String = "android"
 
@@ -222,5 +222,9 @@ Public Class MainForm
         Else
             MessageBox.Show("No hay archivos para descargar.")
         End If
+    End Sub
+
+    Private Sub RFCLabel_Click(sender As Object, e As EventArgs) Handles RFCLabel.Click
+
     End Sub
 End Class

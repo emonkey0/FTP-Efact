@@ -22,6 +22,7 @@ Partial Class MainForm
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.dgvResultados = New System.Windows.Forms.DataGridView()
         Me.SELECCIONAR = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.RFC = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -37,7 +38,11 @@ Partial Class MainForm
         Me.DownloadButton = New System.Windows.Forms.Button()
         Me.RFCLabel = New System.Windows.Forms.Label()
         Me.UUIDLabel = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'dgvResultados
@@ -94,7 +99,7 @@ Partial Class MainForm
         'StartDateTimePicker
         '
         Me.StartDateTimePicker.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.StartDateTimePicker.Location = New System.Drawing.Point(32, 33)
+        Me.StartDateTimePicker.Location = New System.Drawing.Point(32, 78)
         Me.StartDateTimePicker.Name = "StartDateTimePicker"
         Me.StartDateTimePicker.Size = New System.Drawing.Size(200, 20)
         Me.StartDateTimePicker.TabIndex = 6
@@ -102,16 +107,17 @@ Partial Class MainForm
         '
         'EndDateTimePicker
         '
-        Me.EndDateTimePicker.Location = New System.Drawing.Point(270, 33)
+        Me.EndDateTimePicker.Location = New System.Drawing.Point(272, 78)
         Me.EndDateTimePicker.Name = "EndDateTimePicker"
         Me.EndDateTimePicker.Size = New System.Drawing.Size(200, 20)
         Me.EndDateTimePicker.TabIndex = 7
         '
         'btnBuscar
         '
+        Me.btnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscar.Location = New System.Drawing.Point(614, 30)
         Me.btnBuscar.Name = "btnBuscar"
-        Me.btnBuscar.Size = New System.Drawing.Size(75, 23)
+        Me.btnBuscar.Size = New System.Drawing.Size(114, 68)
         Me.btnBuscar.TabIndex = 8
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.UseVisualStyleBackColor = True
@@ -132,9 +138,10 @@ Partial Class MainForm
         '
         'DownloadButton
         '
-        Me.DownloadButton.Location = New System.Drawing.Point(435, 345)
+        Me.DownloadButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DownloadButton.Location = New System.Drawing.Point(527, 324)
         Me.DownloadButton.Name = "DownloadButton"
-        Me.DownloadButton.Size = New System.Drawing.Size(123, 23)
+        Me.DownloadButton.Size = New System.Drawing.Size(183, 90)
         Me.DownloadButton.TabIndex = 11
         Me.DownloadButton.Text = "Descargar Todos"
         Me.DownloadButton.UseVisualStyleBackColor = True
@@ -142,27 +149,67 @@ Partial Class MainForm
         'RFCLabel
         '
         Me.RFCLabel.AutoSize = True
-        Me.RFCLabel.Location = New System.Drawing.Point(524, 9)
+        Me.RFCLabel.BackColor = System.Drawing.Color.Transparent
+        Me.RFCLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RFCLabel.Location = New System.Drawing.Point(552, 8)
         Me.RFCLabel.Name = "RFCLabel"
-        Me.RFCLabel.Size = New System.Drawing.Size(28, 13)
+        Me.RFCLabel.Size = New System.Drawing.Size(42, 20)
         Me.RFCLabel.TabIndex = 12
         Me.RFCLabel.Text = "RFC"
         '
         'UUIDLabel
         '
         Me.UUIDLabel.AutoSize = True
-        Me.UUIDLabel.Location = New System.Drawing.Point(524, 62)
+        Me.UUIDLabel.BackColor = System.Drawing.Color.Transparent
+        Me.UUIDLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UUIDLabel.Location = New System.Drawing.Point(547, 55)
         Me.UUIDLabel.Name = "UUIDLabel"
-        Me.UUIDLabel.Size = New System.Drawing.Size(34, 13)
+        Me.UUIDLabel.Size = New System.Drawing.Size(50, 20)
         Me.UUIDLabel.TabIndex = 13
         Me.UUIDLabel.Text = "UUID"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(305, 55)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(167, 18)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Fecha final de busqueda"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(55, 57)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(177, 18)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "Fecha inicial de busqueda"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(32, 332)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(113, 82)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 16
+        Me.PictureBox1.TabStop = False
         '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(740, 450)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.UUIDLabel)
         Me.Controls.Add(Me.RFCLabel)
         Me.Controls.Add(Me.DownloadButton)
@@ -172,9 +219,11 @@ Partial Class MainForm
         Me.Controls.Add(Me.EndDateTimePicker)
         Me.Controls.Add(Me.StartDateTimePicker)
         Me.Controls.Add(Me.dgvResultados)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MainForm"
-        Me.Text = "Form1"
+        Me.Text = "Buscador"
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -202,4 +251,7 @@ Partial Class MainForm
     Friend WithEvents AÑO As Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents UUID As Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DESCARGAR As Windows.Forms.DataGridViewButtonColumn
+    Friend WithEvents Label1 As Windows.Forms.Label
+    Friend WithEvents Label2 As Windows.Forms.Label
+    Friend WithEvents PictureBox1 As Windows.Forms.PictureBox
 End Class
