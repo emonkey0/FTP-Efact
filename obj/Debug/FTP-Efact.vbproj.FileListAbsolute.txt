@@ -11,3 +11,15 @@ C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.xml
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.pdb
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.MainForm.resources
 C:\Users\Usuario\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.Form1.resources
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.vbproj.AssemblyReference.cache
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.Resources.resources
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.vbproj.GenerateResource.cache
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.vbproj.CoreCompileInputs.cache
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.exe
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.xml
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP-Efact.pdb
+C:\Desktop\Repositorios\FTP-Efact\obj\Debug\FTP_Efact.Mainform.resources
+C:\Desktop\Repositorios\FTP-Efact\bin\Debug\FTP-Efact.exe.config
+C:\Desktop\Repositorios\FTP-Efact\bin\Debug\FTP-Efact.exe
+C:\Desktop\Repositorios\FTP-Efact\bin\Debug\FTP-Efact.pdb
+C:\Desktop\Repositorios\FTP-Efact\bin\Debug\FTP-Efact.xml

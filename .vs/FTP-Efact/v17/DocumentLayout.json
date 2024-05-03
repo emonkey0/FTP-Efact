@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\",
+  "WorkspaceRootPath": "C:\\Desktop\\Repositorios\\FTP-Efact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainForm.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\desktop\\repositorios\\ftp-efact\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\helloworld.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:helloworld.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|c:\\desktop\\repositorios\\ftp-efact\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8FCA46D0-3E6B-4970-BF7A-A1303E4B3DBA}|FTP-Efact.vbproj|solutionrelative:mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,44 +17,39 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 263,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 213,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "helloworld.vb",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\helloworld.vb",
-              "RelativeDocumentMoniker": "helloworld.vb",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\helloworld.vb",
-              "RelativeToolTip": "helloworld.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MainForm.vb [Design]",
+              "DocumentMoniker": "C:\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
+              "RelativeDocumentMoniker": "MainForm.vb",
+              "ToolTip": "C:\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb [Design]",
+              "RelativeToolTip": "MainForm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T19:09:10.689Z"
-            },
+              "WhenOpened": "2024-05-03T10:01:36.285Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 250,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainForm.vb",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
+              "DocumentMoniker": "C:\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
               "RelativeDocumentMoniker": "MainForm.vb",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
+              "ToolTip": "C:\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
               "RelativeToolTip": "MainForm.vb",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAwwNMAAAAZAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAwHMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T17:14:02.44Z",
+              "WhenOpened": "2024-05-03T03:25:57.144Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
-              "RelativeDocumentMoniker": "MainForm.vb",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MainForm.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T17:38:09.458Z"
             }
           ]
         }
