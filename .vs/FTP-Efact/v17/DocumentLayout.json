@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 213,
+          "DockedWidth": 254,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "DockedWidth": 250,
+          "DockedWidth": 209,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -46,7 +46,7 @@
               "RelativeDocumentMoniker": "MainForm.vb",
               "ToolTip": "C:\\Desktop\\Repositorios\\FTP-Efact\\MainForm.vb",
               "RelativeToolTip": "MainForm.vb",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAwHMAAAAAAAAA",
+              "ViewState": "AQIAALMAAAAAAAAAAAAmwMIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-03T03:25:57.144Z",
               "EditorCaption": ""

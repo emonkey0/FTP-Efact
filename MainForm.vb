@@ -183,5 +183,44 @@ Public Class MainForm
         Return value
     End Function
 
+    Private Sub btnDescargarTodos_Click(sender As Object, e As EventArgs) Handles DownloadButton.Click
+        If dgvResultados.Rows.Count > 0 Then
+            Dim folderBrowserDialog As New FolderBrowserDialog()
+            If folderBrowserDialog.ShowDialog() = DialogResult.OK Then
+                Dim selectedPath As String = folderBrowserDialog.SelectedPath
 
+                Dim ftpUrl As String = "ftp://192.168.100.107:2221/"
+                Dim ftpUser As String = "android"
+                Dim ftpPassword As String = "android"
+
+                For Each row As DataGridViewRow In dgvResultados.Rows
+                    Dim fullPath As String = row.Cells(3).Value.ToString() & "/" &
+                                             row.Cells(2).Value.ToString() & "/" &
+                                             row.Cells(1).Value.ToString() & "/" &
+                                             row.Cells(4).Value.ToString()
+
+                    Dim request As FtpWebRequest = CType(WebRequest.Create(ftpUrl & fullPath), FtpWebRequest)
+                    request.Credentials = New NetworkCredential(ftpUser, ftpPassword)
+                    request.Method = WebRequestMethods.Ftp.DownloadFile
+
+                    Try
+                        Using response As FtpWebResponse = CType(request.GetResponse(), FtpWebResponse)
+                            Using responseStream As Stream = response.GetResponseStream()
+                                Dim fileName As String = Path.Combine(selectedPath, row.Cells(4).Value.ToString())
+                                Using fileStream As New FileStream(fileName, FileMode.Create)
+                                    responseStream.CopyTo(fileStream)
+                                End Using
+                            End Using
+                        End Using
+                    Catch ex As WebException
+                        MessageBox.Show("Error al descargar el archivo: " & row.Cells(4).Value.ToString() & ". " & ex.Message)
+                    End Try
+                Next
+
+                MessageBox.Show("Descarga de archivos completada.")
+            End If
+        Else
+            MessageBox.Show("No hay archivos para descargar.")
+        End If
+    End Sub
 End Class

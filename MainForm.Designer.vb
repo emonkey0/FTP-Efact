@@ -23,6 +23,12 @@ Partial Class MainForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.dgvResultados = New System.Windows.Forms.DataGridView()
+        Me.SELECCIONAR = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.RFC = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MES = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AÑO = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UUID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DESCARGAR = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.StartDateTimePicker = New System.Windows.Forms.DateTimePicker()
         Me.EndDateTimePicker = New System.Windows.Forms.DateTimePicker()
         Me.btnBuscar = New System.Windows.Forms.Button()
@@ -31,12 +37,6 @@ Partial Class MainForm
         Me.DownloadButton = New System.Windows.Forms.Button()
         Me.RFCLabel = New System.Windows.Forms.Label()
         Me.UUIDLabel = New System.Windows.Forms.Label()
-        Me.SELECCIONAR = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.RFC = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MES = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AÑO = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.UUID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DESCARGAR = New System.Windows.Forms.DataGridViewButtonColumn()
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -51,6 +51,45 @@ Partial Class MainForm
         Me.dgvResultados.ReadOnly = True
         Me.dgvResultados.Size = New System.Drawing.Size(678, 198)
         Me.dgvResultados.TabIndex = 5
+        '
+        'SELECCIONAR
+        '
+        Me.SELECCIONAR.HeaderText = "SELECCIONAR"
+        Me.SELECCIONAR.Name = "SELECCIONAR"
+        Me.SELECCIONAR.ReadOnly = True
+        Me.SELECCIONAR.Visible = False
+        '
+        'RFC
+        '
+        Me.RFC.HeaderText = "RFC"
+        Me.RFC.Name = "RFC"
+        Me.RFC.ReadOnly = True
+        '
+        'MES
+        '
+        Me.MES.HeaderText = "MES"
+        Me.MES.Name = "MES"
+        Me.MES.ReadOnly = True
+        '
+        'AÑO
+        '
+        Me.AÑO.HeaderText = "AÑO"
+        Me.AÑO.Name = "AÑO"
+        Me.AÑO.ReadOnly = True
+        '
+        'UUID
+        '
+        Me.UUID.HeaderText = "UUID"
+        Me.UUID.Name = "UUID"
+        Me.UUID.ReadOnly = True
+        '
+        'DESCARGAR
+        '
+        Me.DESCARGAR.HeaderText = "DESCARGAR"
+        Me.DESCARGAR.Name = "DESCARGAR"
+        Me.DESCARGAR.ReadOnly = True
+        Me.DESCARGAR.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DESCARGAR.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
         'StartDateTimePicker
         '
@@ -95,9 +134,9 @@ Partial Class MainForm
         '
         Me.DownloadButton.Location = New System.Drawing.Point(435, 345)
         Me.DownloadButton.Name = "DownloadButton"
-        Me.DownloadButton.Size = New System.Drawing.Size(75, 23)
+        Me.DownloadButton.Size = New System.Drawing.Size(123, 23)
         Me.DownloadButton.TabIndex = 11
-        Me.DownloadButton.Text = "Button2"
+        Me.DownloadButton.Text = "Descargar Todos"
         Me.DownloadButton.UseVisualStyleBackColor = True
         '
         'RFCLabel
@@ -117,45 +156,6 @@ Partial Class MainForm
         Me.UUIDLabel.Size = New System.Drawing.Size(34, 13)
         Me.UUIDLabel.TabIndex = 13
         Me.UUIDLabel.Text = "UUID"
-        '
-        'SELECCIONAR
-        '
-        Me.SELECCIONAR.HeaderText = "SELECCIONAR"
-        Me.SELECCIONAR.Name = "SELECCIONAR"
-        Me.SELECCIONAR.ReadOnly = True
-        Me.SELECCIONAR.Visible = False
-        '
-        'RFC
-        '
-        Me.RFC.HeaderText = "RFC"
-        Me.RFC.Name = "RFC"
-        Me.RFC.ReadOnly = True
-        '
-        'MES
-        '
-        Me.MES.HeaderText = "MES"
-        Me.MES.Name = "MES"
-        Me.MES.ReadOnly = True
-        '
-        'AÑO
-        '
-        Me.AÑO.HeaderText = "AÑO"
-        Me.AÑO.Name = "AÑO"
-        Me.AÑO.ReadOnly = True
-        '
-        'UUID
-        '
-        Me.UUID.HeaderText = "UUID"
-        Me.UUID.Name = "UUID"
-        Me.UUID.ReadOnly = True
-        '
-        'DESCARGAR
-        '
-        Me.DESCARGAR.HeaderText = "DESCARGAR"
-        Me.DESCARGAR.Name = "DESCARGAR"
-        Me.DESCARGAR.ReadOnly = True
-        Me.DESCARGAR.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DESCARGAR.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
         'MainForm
         '
